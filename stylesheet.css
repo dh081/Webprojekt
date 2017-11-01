@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+/* Allgemein
+*/
+body {
+    font-family: 'Abel', sans-serif;
+}
+h1 { font-size: 35px;
+     font-family: 'Abel', sans-serif;}
+h2 { font-size: 30px;
+     font-family: 'Abel', sans-serif;}
+h3 { font-size: 25px;
+     font-family: 'Abel', sans-serif;}
+p  { font-size: 18px;
+     font-family: 'Abel', sans-serif;}
+a  { font-size: 18px;
+     font-family: 'Abel', sans-serif;}
+/* Navigation
+*/
+.divnav {
+    border-bottom: 1px solid #EEEEEE;
+    font-family: 'Abel', sans-serif;
+}
+
+.logoschrift {
+    color: black;
+    margin-top: 1%;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+}
+
+
+nav ul {
+    list-style: none;
+    background-color: white;
+    text-align: center;
+
+}
+nav li {
+    border: none;
+    margin: 1%;
+    background-color: white;
+    display: inline-block;
+    font-family: 'Abel', sans-serif;
+}
+nav a {
+    text-decoration: none;
+    color: #707070;
+    background-color: white;
+}
+nav a:focus,
+nav a:hover,
+nav a:active {
+    text-decoration:underline;
+}
+
+/* Footer
+*/
 
 .footer-bottom {
     background-color: black;
