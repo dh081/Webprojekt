@@ -22,11 +22,25 @@ Zum Shop
 </div>
 </div>
 <br>
-<br>
-<br>
+<div class="kategorieauswahl">
+   <div class="kategorie">Spitze Steine</div>
+   <div class="kategorie">Flache Steine</div>
+   <div class="kategorie">Backsteine</div>
+   <div class="kategorie">Hinkelsteine</div>
+</div>
 <br>
 <div class="textboxgrau">
 <div class="zitat">Lorem ipsum dolor sit amet, sadipscing elitr, sed diam<br> nonumy eirmod tempor invidunt ut labore et dolore magn<br><b>Fresh D. - CEO</b></div>
+</div>
+<br>
+<div class="kategorieauswahl">
+   <div class="kategorie">Produkt 1</div>
+   <div class="kategorie">Produkt 2</div>
+   <div class="kategorie">Produkt 3</div>
+   <div class="kategorie">Produkt 4</div>
+</div>
+<br>
+<div class="banner2">
 </div>
 <div style="width: 100%; padding: 3%">
 <div class="maincontent">
@@ -41,6 +55,13 @@ Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming 
 </div>
 <div class="sidebar">
 <ul>
+    <li>Beispiel</li>
+    <li>Beispiel</li>
+    <li>Beispiel</li>
+    <li>Beispiel</li>
+    <li>Beispiel</li>
+    <li>Beispiel</li>
+    <li>Beispiel</li>
     <li>Beispiel</li>
     <li>Beispiel</li>
     <li>Beispiel</li>

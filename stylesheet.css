@@ -74,10 +74,42 @@ nav a:active {
     font-family: 'Abel', sans-serif;
 
 }
+
+.banner2 {
+    width: 100%;
+    height: 400px;
+    background-image: url("https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/stone-banner.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+/*Kategorie Auswahl
+*/
+
+.kategorieauswahl {
+    width:100%;
+    text-align: center;
+    margin: 1% auto;
+    background-color: white;
+}
+
+.kategorie {
+    display:inline-block;
+    box-shadow: 0 0 5px 0 #707070;
+    text-align: center;
+    padding: 3%;
+    font-size: 19px;
+    color: #707070;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    width:100px;
+    height:100px;
+}
+
 /*Content
 */
 .textboxgrau {
-    /*width: 100%;*/
     padding:3%;
     background-color: #efefef;
 }
@@ -96,8 +128,9 @@ div .sidebar {
     padding: 0 1% 0 1%;
     margin-left: 5%;
     margin-right: 3%;
-    box-shadow: 0 0 15px 0 #efefef;
+    box-shadow: 0 0 5px 0 #707070;
 }
+
 /* Footer
 */
 
