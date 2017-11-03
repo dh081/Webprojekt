@@ -74,7 +74,30 @@ nav a:active {
     font-family: 'Abel', sans-serif;
 
 }
+/*Content
+*/
+.textboxgrau {
+    /*width: 100%;*/
+    padding:3%;
+    background-color: #efefef;
+}
+.zitat {
+    text-align: center;
+    font-size: 25px;
+}
 
+div .maincontent{
+    float: left;
+    width: 62%;
+}
+div .sidebar {
+    float: left;
+    width: 26%;
+    padding: 0 1% 0 1%;
+    margin-left: 5%;
+    margin-right: 3%;
+    box-shadow: 0 0 15px 0 #efefef;
+}
 /* Footer
 */
 
