@@ -173,3 +173,54 @@ div .sidebar {
 ul {
     list-style: outside none; padding-left: 0;
 }
+
+.produktseitebild {
+    width: 45%;
+    display:inline-block;
+    float: left;
+    margin: 2%;
+    height: 400px;
+    background-image: url("https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/hinkelstein.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.produktseitetext {
+    width: 45%;
+    display:inline-block;
+    text-align: left;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+
+.produktseitetext h1 {
+    text-align: center;
+}
+
+.produktseitetext h2 {
+    text-align: center;
+}
+
+.produktseitetext hr {
+    margin: 2%;
+    border: solid #707070 0.01px;
+}
+
+.produktseitetext button {
+    background-color: #707070;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 38%;
+}
+
+.produktseitebeschreibung {
+    padding: 3%;
+    margin: 2%;
+    background-color: #efefef;
+}
