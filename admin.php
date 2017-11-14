@@ -15,7 +15,7 @@ echo ' <!DOCTYPE html>
   </head>
   <body>
   <div class="kopfleisteadmin">
-  <a href="https://mars.iuk.hdm-stuttgart.de/~dh081/index.php">Zum Shop</a>
+    <a href="https://mars.iuk.hdm-stuttgart.de/~dh081/index.php">Zum Shop</a>
   </div>
   <div class="menuadminaußen">
     <div class="menuadmin">
@@ -23,6 +23,7 @@ echo ' <!DOCTYPE html>
             <li> <a href="#">Kategorien</a><li>
             <li> <a href="#">Produkte</a></li>
             <li> <a href="#">Bestellungen</a></li>
+            <li> <a href="#">Log Out</a></li>
         </ul>
     </div>
   <div class="bodyadmin">Test</div>
