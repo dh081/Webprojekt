@@ -14,6 +14,10 @@ p  { font-size: 18px;
      font-family: 'Abel', sans-serif;}
 a  { font-size: 18px;
      font-family: 'Abel', sans-serif;}
+* {
+    margin: 0;
+    padding: 0;
+}
 /* Navigation
 */
 .divnav {
@@ -223,4 +227,49 @@ ul {
     padding: 3%;
     margin: 2%;
     background-color: #efefef;
+}
+
+/* Backend
+*/
+.kopfleisteadmin {
+    background-color: #262626;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+    padding: 1%;
+    color: white;
+}
+.kopfleisteadmin a {
+    color: white;
+    text-decoration: none;
+}
+.menuadminaußen {
+    width: 100%;
+    display: block;
+    font-size: 0;
+}
+.menuadmin {
+    background-color: #4F4F4F;
+    padding-left: 1%;
+    width: 10%;
+    height: 1000px;
+    display: inline-block;
+    font-size: 18px;
+}
+.menuadmin a {
+    color: white;
+    text-decoration: none;
+    margin-top: 10%;
+    display: inline-block;
+}
+.bodyadmin {
+    background-color: #efefef;
+    width: 86%;
+    padding-left: 3%;
+    padding-top: 1%;
+    height: 1000px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
 }
