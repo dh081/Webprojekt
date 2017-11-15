@@ -137,12 +137,117 @@ div .sidebar {
 
 /* Footer
 */
+.footer-total {
+    background-color: #282b2d;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-total .footer-left,
+.footer-total .footer-center,
+.footer-total .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-total .footer-left{
+    width: 40%;
+}
+
+.footer-total h3{
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer-total .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-total .footer-links ul li a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-total .footer-center{
+    width: 35%;
+}
+
+.footer-total .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-total .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-total .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer-total .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer-total .footer-center p a{
+    color:  #ffffff;
+    text-decoration: none;;
+}
+
+.footer-total .footer-right {
+    width: 20%;
+}
+
+.footer-total .footer-sm-icons {
+    margin-top: 25px;
+}
+
+.footer-total .footer-sm-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
 
 .footer-bottom {
     background-color: black;
     min-height: 30px;
     width: 100%;
 }
+/*
 .fa {
     padding: 10px;
     font-size: 15px;
@@ -167,13 +272,15 @@ div .sidebar {
 .fa-youtube {
     background: #bb0000;
     color: white;
-}
+} */
 .copyright {
     color: white;
     line-height: 30px;
     min-height: 30px;
     padding: 7px 0;
 }
+
+
 ul {
     list-style: outside none; padding-left: 0;
 }
