@@ -193,6 +193,7 @@ div .sidebar {
     vertical-align: middle;
 }
 
+
 .footer-total .footer-center i.fa-envelope{
     font-size: 17px;
     line-height: 38px;
@@ -314,6 +315,7 @@ ul {
 .produktseitetext hr {
     margin: 2%;
     border: solid #707070 0.01px;
+
 }
 
 .produktseitetext button {
