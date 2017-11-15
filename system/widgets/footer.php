@@ -35,7 +35,6 @@ echo '
 <br>
 <br>
 <br>
-<br>
 <footer class="footer-total">
     <div class="footer-left">
         <h3>Stone Shop</h3>
