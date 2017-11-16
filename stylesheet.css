@@ -137,47 +137,71 @@ div .sidebar {
 
 /* Footer
 */
+
+
 .footer-total {
-    background-color: #282b2d;
+    background-color: #292c2f!important;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    padding: 55px 50px;
-}
+    height: 220px;
+    color: #ffffff;
 
+
+
+
+
+
+
+}
+/*
 .footer-total .footer-left,
 .footer-total .footer-center,
 .footer-total .footer-right {
     display: inline-block;
     vertical-align: top;
-}
+    float:left;
+    width: 32%;
 
+}*/
+.footer-left, .footer-center, .footer-right {
+    float:left;
+    width:32%;
+    bottom: 10px;
+    display:inline-block;
+    vertical-align: top;
+
+
+}
 .footer-total .footer-left{
-    width: 40%;
+    width: 35%;
+    margin-left: 2%;
+    margin-top: 1%;
+    text-decoration: none;
 }
 
-.footer-total h3{
-    color: #ffffff;
-    margin: 0;
-}
+
 
 .footer-total .footer-links{
     color:  #ffffff;
-    margin: 20px 0 12px;
-    padding: 0;
+
+    text-decoration: none;
+
 }
 
-.footer-total .footer-links ul li a{
+.footer-total .footer-left .footer-links ul li a{
     display:inline-block;
-    line-height: 1.8;
+
     text-decoration: none;
-    color:  inherit;
+    color:  #ffffff!important;
 }
 
 .footer-total .footer-center{
     width: 35%;
+    margin-top: 1%;
+
 }
 
 .footer-total .footer-center i{
@@ -193,10 +217,20 @@ div .sidebar {
     vertical-align: middle;
 }
 
-
-.footer-total .footer-center i.fa-envelope{
+.footer-total .footer-center i .fa-map-marker:before{
     font-size: 17px;
     line-height: 38px;
+}
+
+.footer-total .footer-center i .fa-phone:before{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-total .footer-center i .fa-envelope:before{
+    font-size: 17px;
+    line-height: 38px;
+
 }
 
 .footer-total .footer-center p{
@@ -220,10 +254,14 @@ div .sidebar {
 
 .footer-total .footer-right {
     width: 20%;
+    margin-top: 1%;
+
 }
 
 .footer-total .footer-sm-icons {
     margin-top: 25px;
+    color: #ffffff;
+
 }
 
 .footer-total .footer-sm-icons a {
@@ -240,11 +278,19 @@ div .sidebar {
     margin-right: 3px;
     margin-bottom: 5px;
 }
+.footer-total .footer-sm-icons a i:before {
+
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
 
 .footer-bottom {
-    background-color: black;
+
     min-height: 30px;
     width: 100%;
+   margin-bottom: 0;
+
 }
 /*
 .fa {

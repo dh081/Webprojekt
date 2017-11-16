@@ -10,6 +10,7 @@ echo '
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -36,7 +37,6 @@ echo '
 <br>
 <footer class="footer-total">
     <div class="footer-left">
-        <h3>Stone Shop</h3>
         <p class="footer-links">
         <h4>Informationen</h4>
             <ul>
@@ -51,24 +51,21 @@ echo '
     </div>    
     <div class="footer-center">
         <h4>Kontakt</h4>
-         <div> = $0
+         <div> 
             <i class="fa fa-map-marker">
-               ::before
             </i>
             <p> 
-                <span>Steinstraße 1, 12345 Steinhausen</span>
-                "Gallien"
+                <span>Steinstraße 1, 12345 Steinhausen <br>Gallien</span>
+                
             </p>
          </div>
          <div>
             <i class="fa fa-phone">
-            ::before
             </i>
             <p>+0 1234 56789</p>
          </div>
          <div>
             <i class="fa fa-envelope">
-            ::before
             </i>
             <p>
                 <a href="mailto:support@stoneshop.de">support@stoneshop.de</a>
@@ -80,24 +77,25 @@ echo '
         <div class="footer-sm-icons">
             <a href="#">
                 <i class="fa fa-facebook">
-                ::before
                 </i>
             </a>
             <a href="#">
                 <i class="fa fa-twitter">
-                ::before
                 </i>
             </a>
             <a href="#">
                 <i class="fa fa-instagram">
-                ::before
                 </i>
             </a>
             <a href="#">
                 <i class="fa fa-youtube">
-                ::before
                 </i>
             </a>       
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                © by Obelix GmbH & Co. KG 2017 - In Stone we trust.
+            </div>
         </div>
     </div>
 </footer>
@@ -141,11 +139,7 @@ Besuchen Sie auch unsere Kanäle. </br>
     </div>
     </div>
 </footer> !-->
-<div class="footer-bottom">
-   <div class="copyright">
-© by Obelix GmbH & Co. KG 2017 - In Stone we trust.
-    </div>
-</div>
+
 </body>
 </html>
 
