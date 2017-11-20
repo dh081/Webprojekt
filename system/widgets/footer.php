@@ -10,6 +10,7 @@ echo '
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -34,9 +35,76 @@ echo '
 <br>
 <br>
 <br>
-<br>
-<br>
-<footer id="footer">
+<footer class="footer-total">
+    <div class="footer-left">
+        <p class="footer-links">
+        <h4>Informationen</h4>
+            <ul>
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">Datenschutz</a></li>
+                <li><a href="#">AGB</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Widerrufsrecht & Widerrufsformular</a></li>
+                <li><a href="#">Versand- & Zahlungsbedingungen</a></li>
+            </ul>   
+        </p>
+    </div>    
+    <div class="footer-center">
+        <h4>Kontakt</h4>
+         <div> 
+            <i class="fa fa-map-marker">
+            </i>
+            <p> 
+                <span>Steinstraße 1, 12345 Steinhausen <br>Gallien</span>
+                
+            </p>
+         </div>
+         <div>
+            <i class="fa fa-phone">
+            </i>
+            <p>+0 1234 56789</p>
+         </div>
+         <div>
+            <i class="fa fa-envelope">
+            </i>
+            <p>
+                <a href="mailto:support@stoneshop.de">support@stoneshop.de</a>
+            </p>
+         </div>
+    </div>
+    <div class="footer-right">
+        <h4>Follow us on</h4>
+        <div class="footer-sm-icons">
+            <a href="#">
+                <i class="fa fa-facebook">
+                </i>
+            </a>
+            <a href="#">
+                <i class="fa fa-twitter">
+                </i>
+            </a>
+            <a href="#">
+                <i class="fa fa-instagram">
+                </i>
+            </a>
+            <a href="#">
+                <i class="fa fa-youtube">
+                </i>
+            </a>       
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                © by Obelix GmbH & Co. KG 2017 - In Stone we trust.
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<!--
     <div class="container">
     <div class="row">
     <div class="col-sm-4">
@@ -70,16 +138,8 @@ Besuchen Sie auch unsere Kanäle. </br>
     </div>
     </div>
     </div>
-</footer>
-<div class="footer-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="copyright">
-© by Obelix GmbH & Co. KG 2017 - In Stone we trust.
-            </div>
-        </div>
-    </div>
-</div>
+</footer> !-->
+
 </body>
 </html>
 
