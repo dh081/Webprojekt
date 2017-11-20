@@ -37,9 +37,7 @@ echo '
 <br>
 <footer class="footer-total">
     <div class="footer-left">
-        <p class="footer-header">
-            <span>Rechtliches</span>
-        </p>
+        <span class="footer-ueberschrift">Rechtliches</span>
             <ul>
                 <li><a href="/impressum.php">Impressum</a></li>
                 <li><a href="/datenschutz.php">Datenschutz</a></li>
@@ -49,22 +47,22 @@ echo '
                 <li><a href="/versand.php">Versand- & Zahlungsbedingungen</a></li>
                 <li><a href="/kontakt.php">Kontakt</a></li>
             </ul>   
-    </div>    
+    </div>  
+      
     <div class="footer-center">
-       <h5>Kontakt</h5>
+       <span class="footer-ueberschrift">Kontakt</span>
+       <br>
             <i class="fa fa-map-marker">
             </i>
             <p> 
-                <span>Steinstraße 1, 12345 Steinhausen <br>Gallien</span>
+                <span>Steinstraße 1, 12345 Steinhausen Gallien</span>
                 
             </p>
-         
-         
+            <br>
             <i class="fa fa-phone">
             </i>
             <p>+0 1234 56789</p>
-         
-         
+            <br>
             <i class="fa fa-envelope">
             </i>
             <p>
@@ -72,8 +70,9 @@ echo '
             </p>
          
     </div>
+    
     <div class="footer-right">
-        <h5>Follow us on</h5>
+        <span class="footer-ueberschrift">Follow us on</span>
         <div class="footer-sm-icons">
             <a href="#">
                 <i class="fa fa-facebook">
@@ -92,13 +91,12 @@ echo '
                 </i>
             </a>       
         </div>
-      
+      </div>
         <div class="footer-bottom">
             <div class="copyright">
                 © by Obelix GmbH & Co. KG 2017 - In Stone we trust.
             </div>
         </div>
-    </div>
 </footer>
 
 

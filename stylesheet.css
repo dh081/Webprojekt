@@ -160,47 +160,37 @@ div .sidebar {
 
 
 .footer-total {
-    background-color: #292c2f!important;
+    background-color: #212121;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    height: 500px;
+    height: 250px;
     color: #ffffff;
-    margin-bottom: 0;
 
-.footer-total .footer-header {
-    font-size: 25px;
+}
 
+.footer-total .footer-ueberschrift {
+    font-size: 20px;
 }
 
 
 
 
 
-}
-/*
-.footer-total .footer-left,
-.footer-total .footer-center,
-.footer-total .footer-right {
-    display: inline-block;
-    vertical-align: top;
-    float:left;
-    width: 32%;
 
-}*/
+
+
 .footer-left, .footer-center, .footer-right {
     float:left;
-    width:32%;
     display:inline-block;
-
-
-
+    margin-bottom: 10px;
 }
+
 .footer-total .footer-left{
-    width: 32%;
-    margin-left: 2%;
+    width: 35%;
+    margin-left: 5%;
     margin-top: 1%;
     text-decoration: none;
     color: #ffffff;
@@ -212,11 +202,13 @@ div .sidebar {
     display:inline-block;
     text-decoration: none;
     color:  #ffffff;
+    margin-top: 0px;
 }
 
 .footer-total .footer-center{
     width: 35%;
     margin-top: 1%;
+
 
 }
 
@@ -272,10 +264,11 @@ div .sidebar {
     width: 20%;
     margin-top: 1%;
 
+
 }
 
 .footer-total .footer-sm-icons {
-    margin-top: 25px;
+    margin-top: 10px;
     color: #ffffff;
 
 }
@@ -286,7 +279,7 @@ div .sidebar {
     height: 35px;
     cursor: pointer;
     background-color:  #33383b;
-    border-radius: 2px;
+    border-radius: 50%;
     font-size: 20px;
     color: #ffffff;
     text-align: center;
@@ -306,6 +299,10 @@ div .sidebar {
     min-height: 30px;
     width: 100%;
    margin-bottom: 0;
+    float: left;
+    background-color: black;
+    padding-left: 1%;
+
 
 }
 /*
