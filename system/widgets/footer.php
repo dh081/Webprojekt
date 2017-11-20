@@ -37,43 +37,43 @@ echo '
 <br>
 <footer class="footer-total">
     <div class="footer-left">
-        <p class="footer-links">
-        <h4>Informationen</h4>
-            <ul>
-                <li><a href="#">Impressum</a></li>
-                <li><a href="#">Datenschutz</a></li>
-                <li><a href="#">AGB</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Widerrufsrecht & Widerrufsformular</a></li>
-                <li><a href="#">Versand- & Zahlungsbedingungen</a></li>
-            </ul>   
+        <p class="footer-header">
+            <span>Rechtliches</span>
         </p>
+            <ul>
+                <li><a href="/impressum.php">Impressum</a></li>
+                <li><a href="/datenschutz.php">Datenschutz</a></li>
+                <li><a href="/agb.php">AGB</a></li>
+                <li><a href="/faq.php">FAQ</a></li>
+                <li><a href="/widerrufsrecht.php">Widerrufsrecht & Widerrufsformular</a></li>
+                <li><a href="/versand.php">Versand- & Zahlungsbedingungen</a></li>
+                <li><a href="/kontakt.php">Kontakt</a></li>
+            </ul>   
     </div>    
     <div class="footer-center">
-        <h4>Kontakt</h4>
-         <div> 
+       <h5>Kontakt</h5>
             <i class="fa fa-map-marker">
             </i>
             <p> 
                 <span>Steinstraße 1, 12345 Steinhausen <br>Gallien</span>
                 
             </p>
-         </div>
-         <div>
+         
+         
             <i class="fa fa-phone">
             </i>
             <p>+0 1234 56789</p>
-         </div>
-         <div>
+         
+         
             <i class="fa fa-envelope">
             </i>
             <p>
                 <a href="mailto:support@stoneshop.de">support@stoneshop.de</a>
             </p>
-         </div>
+         
     </div>
     <div class="footer-right">
-        <h4>Follow us on</h4>
+        <h5>Follow us on</h5>
         <div class="footer-sm-icons">
             <a href="#">
                 <i class="fa fa-facebook">
@@ -92,6 +92,7 @@ echo '
                 </i>
             </a>       
         </div>
+      
         <div class="footer-bottom">
             <div class="copyright">
                 © by Obelix GmbH & Co. KG 2017 - In Stone we trust.

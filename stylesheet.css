@@ -166,10 +166,14 @@ div .sidebar {
     width: 100%;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    height: 220px;
+    height: 500px;
     color: #ffffff;
+    margin-bottom: 0;
 
+.footer-total .footer-header {
+    font-size: 25px;
 
+}
 
 
 
@@ -189,33 +193,25 @@ div .sidebar {
 .footer-left, .footer-center, .footer-right {
     float:left;
     width:32%;
-    bottom: 10px;
     display:inline-block;
-    vertical-align: top;
+
 
 
 }
 .footer-total .footer-left{
-    width: 35%;
+    width: 32%;
     margin-left: 2%;
     margin-top: 1%;
     text-decoration: none;
+    color: #ffffff;
 }
 
 
 
-.footer-total .footer-links{
-    color:  #ffffff;
-
-    text-decoration: none;
-
-}
-
-.footer-total .footer-left .footer-links ul li a{
+.footer-left a {
     display:inline-block;
-
     text-decoration: none;
-    color:  #ffffff!important;
+    color:  #ffffff;
 }
 
 .footer-total .footer-center{
