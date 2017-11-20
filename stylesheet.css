@@ -110,6 +110,26 @@ nav a:active {
     width:100px;
     height:100px;
 }
+.kategorie:hover {
+    display:inline-block;
+    box-shadow: 0 0 10px 0 #707070;
+    text-align: center;
+    padding: 3%;
+    font-size: 19px;
+    color: #707070;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    width:100px;
+    height:100px;
+}
+
+.kategorie a {
+    font-size: 19px;
+    color: #707070;
+    text-decoration: none;
+}
 
 /*Content
 */
@@ -200,10 +220,12 @@ ul {
 
 .produktseitetext h1 {
     text-align: center;
+    margin-top: 3%;
 }
 
 .produktseitetext h2 {
     text-align: center;
+    margin-top: 5%;
 }
 
 .produktseitetext hr {
@@ -221,6 +243,11 @@ ul {
     display: inline-block;
     font-size: 16px;
     margin-left: 38%;
+    margin-top: 5%;
+}
+
+.produktseitetext p {
+    margin-top: 5%;
 }
 
 .produktseitebeschreibung {
@@ -272,4 +299,18 @@ ul {
     display: inline-block;
     vertical-align: top;
     font-size: 18px;
+}
+
+/* Formular
+*/
+
+.form {
+    display:inline-block;
+    box-shadow: 0 0 5px 0 #707070;
+    text-align: center;
+    padding: 3%;
+    font-size: 19px;
+    color: #707070;
+    background-color: white;
+    background-position: center center;
 }

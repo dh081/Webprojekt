@@ -11,7 +11,7 @@ echo ' <!DOCTYPE html>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <title>Admin</title>
+    <title>Produkte bearbeiten</title>
   </head>
   <body>
   <div class="kopfleisteadmin">
@@ -23,12 +23,12 @@ echo ' <!DOCTYPE html>
         <ul>
             <li> <a href="https://mars.iuk.hdm-stuttgart.de/~dh081/admin.php">Dashboard</a><li>
             <li> <a href="https://mars.iuk.hdm-stuttgart.de/~dh081/kategorieadmin.php">Kategorien</a><li>
-            <li> <a href="#">Produkte</a></li>
-            <li> <a href="#">Bestellungen</a></li>
+            <li> <a href="https://mars.iuk.hdm-stuttgart.de/~dh081/produktadmin.php">Produkte</a></li>
+            <li> <a href="https://mars.iuk.hdm-stuttgart.de/~dh081/bestellungenadmin.php">Bestellungen</a></li>
             <li> <a href="#">Log Out</a></li>
         </ul>
     </div>
-  <div class="bodyadmin">Dashboard</div>
+  <div class="bodyadmin">Produkte</div>
 </div>
   </body>
 ';

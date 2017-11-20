@@ -19,12 +19,14 @@ echo '
 <div>
 <div class="produktseitebild"></div>
 <div class="produktseitetext">
+<div style="border-bottom: 1px solid #EEEEEE;">
 <h1>Hinkelstein</h1>
-<h2>200 €</h2>
+<br>
+</div>
+<h2>2000 €</h2>
 <button>Jetzt kaufen</button>
 <p>Unsere Hinkelsteine stammen aus dem familieneigenen Steinbruch. Sie sind steinhart und werden schnell geliefert!<br>
 Gratis Lieferung!
-<br>
 <br>
 <br>
 <br>
