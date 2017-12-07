@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
 /* Allgemein
+
 */
 body {
     font-family: 'Abel', sans-serif;
@@ -64,6 +65,13 @@ nav a:active {
     width: 100%;
     height: 400px;
     background-image: url("https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/stone-shop-banner.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.bannershop {
+    width: 100%;
+    height: 400px;
+    background-image: url("https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/shop-banner.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -563,4 +571,39 @@ ul {
 }
 
 
-
+/*Shop*/
+.shopvorgeschlageneprodukte
+{
+    width:100%;
+    text-align: center;
+    margin: 1% auto;
+    background-color: white;
+}
+.produkteshop{
+    display:inline-block;
+    box-shadow: 0 0 5px 0 #707070;
+    text-align: center;
+    padding: 3%;
+    font-size: 19px;
+    color: #707070;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    width:100px;
+    height:100px;
+}
+.produkteshop:hover {
+    display:inline-block;
+    box-shadow: 0 0 10px 0 #707070;
+    text-align: center;
+    padding: 3%;
+    font-size: 19px;
+    color: #707070;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    width:100px;
+    height:100px;
+}
