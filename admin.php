@@ -15,14 +15,14 @@ echo ' <!DOCTYPE html>
   </head>
   <body>
   <div class="kopfleisteadmin">
-    <a href="https://mars.iuk.hdm-stuttgart.de/~dh081/index.php" target="_blank">Zum Shop</a>
+    <a href="https://mars.iuk.hdm-stuttgart.de/~mb280/index.php" target="_blank">Zum Shop</a>
     <a href="#" target="_blank" style="vertical-align: top; margin-left: 89%">Logout</a>
   </div>
   <div class="menuadminaußen">
     <div class="menuadmin">
         <ul>
-            <li> <a href="https://mars.iuk.hdm-stuttgart.de/~dh081/admin.php">Dashboard</a><li>
-            <li> <a href="https://mars.iuk.hdm-stuttgart.de/~dh081/kategorieadmin.php">Kategorien</a><li>
+            <li> <a href="https://mars.iuk.hdm-stuttgart.de/~mb280/admin.php">Dashboard</a><li>
+            <li> <a href="https://mars.iuk.hdm-stuttgart.de/~mb280/kategorieadmin.php">Kategorien</a><li>
             <li> <a href="#">Produkte</a></li>
             <li> <a href="#">Bestellungen</a></li>
             <li> <a href="#">Log Out</a></li>

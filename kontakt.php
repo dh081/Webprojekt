@@ -6,7 +6,7 @@
  * Time: 13:03
  */
 echo'
-<html lang="de">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +28,8 @@ echo '
     <br>
     <i class="fa fa-phone"></i>
     +0 1234 56789
+    </br>
+    </br>
     <i class="fa fa-envelope"></i>
     
        <a href="mailto:support@stoneshop.de">support@stoneshop.de</a>
@@ -37,7 +39,7 @@ echo '
 <div class="kontaktform">
 <p>Schreiben Sie uns, wir beraten Sie gerne.</p>
 <br>
-<form method="post" action="#">
+<form method="post" action="sendmail.php">
 <!--<label for="Name"><b>Name:</b></label><br>-->
 <input type="text"  name="Name" placeholder="Name"><br><br>
  
@@ -48,7 +50,7 @@ echo '
 <input type="text" name="Betreff" placeholder="Betreff"><br><br>
  
 <!--<label for="Nachricht"><b>Nachricht:</b></label><br>-->
-<textarea name="Nachricht" placeholder="Nachricht" rows="10" cols="50"></textarea> <br><br>
+<textarea name="Nachricht" placeholder="Nachricht..." rows="10" cols="50"></textarea> <br><br>
  
 <input type="submit" value="Absenden">
 </form>
@@ -79,7 +81,7 @@ echo '
 </div>
 ';
 include ("system/widgets/footer.php");
-
+echo "</body>";
   
   
 

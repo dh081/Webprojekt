@@ -1,6 +1,6 @@
 <?php
 echo ' 
-<html lang="de">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,8 +47,6 @@ echo '
  <p> Quelle: <a href="https://www.e-recht24.de">eRecht24</a></p>
 </div>
 </div>
-</body>
-
-
-    ';
+';
 include ("system/widgets/footer.php");
+echo "</body>";
