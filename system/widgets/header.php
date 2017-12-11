@@ -14,8 +14,8 @@ echo'
 <nav>
     <ul>
       <li><a href="index.php">Home</a></li>
-      <li><a href="#">Shop</a></li>
-      <li><a href="#">Collection</a></li>
+      <li><a href="shop.php">Shop</a></li>
+      <li><a href="collection.php">Collection</a></li>
       <li><a href="index.php/ueber-uns.php">Über Uns</a></li>
      </ul>
 </nav>
