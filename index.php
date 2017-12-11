@@ -38,7 +38,7 @@ Zum Shop
 </div>
 <br>
 <div class="kategorieauswahl">
-   <div class="kategorie"><a href="https://mars.iuk.hdm-stuttgart.de/~dh081/hinkelstein.php">Hinkelstein<a/></div>
+   <div class="kategorie"><a href="hinkelstein.php">Hinkelstein<a/></div>
    <div class="kategorie">Produkt 2</div>
    <div class="kategorie">Produkt 3</div>
    <div class="kategorie">Produkt 4</div>
