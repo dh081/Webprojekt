@@ -15,7 +15,7 @@ echo ' <!DOCTYPE html>
   </head>
   <body>
   <div class="kopfleisteadmin">
-    <a href="https://mars.iuk.hdm-stuttgart.de/~mb280/index.php" target="_blank">Zum Shop</a>
+    <a href="index.php" target="_blank">Zum Shop</a>
     <a href="#" target="_blank" style="vertical-align: top; margin-left: 89%">Logout</a>
   </div>
   <div class="menuadminaußen">
