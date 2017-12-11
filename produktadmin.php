@@ -15,7 +15,11 @@ echo ' <!DOCTYPE html>
   </head>
   <body>
   <div class="kopfleisteadmin">
+<<<<<<< Updated upstream
     <a href="index.php" target="_blank">Zum Shop</a>
+=======
+    <a href="https://mars.iuk.hdm-stuttgart.de/~dh081/index.php" target="_blank">Zum Shop</a>
+>>>>>>> Stashed changes
     <a href="#" target="_blank" style="vertical-align: top; margin-left: 89%">Logout</a>
   </div>
   <div class="menuadminaußen">

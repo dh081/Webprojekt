@@ -446,8 +446,6 @@ ul {
 }
 
 
-
-
 .menuadminaußen .bodyadmin .produktupload input, textarea {
     border:  1px black;
     box-sizing: border-box;
@@ -737,6 +735,7 @@ ul {
     width:100px;
     height:100px;
 }
+
 #button:hover {
     cursor: pointer;
     background-color: #33383b;
