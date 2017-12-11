@@ -447,6 +447,7 @@ ul {
 
 
 
+
 .menuadminaußen .bodyadmin .produktupload input, textarea {
     border:  1px black;
     box-sizing: border-box;
@@ -698,6 +699,7 @@ ul {
 }
 #button::after {
     content: "\f077";
+}
 
 /*Shop*/
 .shopvorgeschlageneprodukte
