@@ -21,10 +21,10 @@ echo ' <!DOCTYPE html>
   <div class="menuadminaußen">
     <div class="menuadmin">
         <ul>
-            <li> <a href="https://mars.iuk.hdm-stuttgart.de/~mb280/admin.php">Dashboard</a><li>
-            <li> <a href="https://mars.iuk.hdm-stuttgart.de/~mb280/kategorieadmin.php">Kategorien</a><li>
-            <li> <a href="https://mars.iuk.hdm-stuttgart.de/~mb280/produktadmin.php">Produkte</a></li>
-            <li> <a href="https://mars.iuk.hdm-stuttgart.de/~mb280/bestellungenadmin.php">Bestellungen</a></li>
+            <li> <a href="admin.php">Dashboard</a><li>
+            <li> <a href="kategorieadmin.php">Kategorien</a><li>
+            <li> <a href="produktadmin.php">Produkte</a></li>
+            <li> <a href="bestellungenadmin.php">Bestellungen</a></li>
             
         </ul>
     </div>
