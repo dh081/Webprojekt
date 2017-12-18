@@ -804,4 +804,35 @@ ul {
         margin-right: 3%;
         box-shadow: 0 0 5px 0 #707070;
     }
+    .shopvorgeschlageneprodukte
+    {
+        width:100%;
+        text-align: center;
+        margin: 1% auto;
+        background-color: white;
+    }
+    .produkteshop{
+        display:inline-block;
+        box-shadow: 0 0 5px 0 #707070;
+        text-align: center;
+        padding: 3%;
+        font-size: 19px;
+        color: #707070;
+        margin: 5%;
+        background-color: white;
+        width:100px;
+        height:100px;
+    }
+    .produkteshop:hover {
+        display:inline-block;
+        box-shadow: 0 0 10px 0 #707070;
+        text-align: center;
+        padding: 3%;
+        font-size: 19px;
+        color: #707070;
+        margin: 5%;
+        background-color: white;
+        width:100px;
+        height:100px;
+    }
 }
