@@ -747,4 +747,61 @@ ul {
     opacity: 1;
     visibility: visible;
 }
+ /*
+ Mobile Version
+ */
 
+@media screen and (max-width: 1300px) {
+    .kategorieauswahl {
+        width:100%;
+        text-align: center;
+        margin: 1% auto;
+        background-color: white;
+    }
+
+    .kategorie {
+        display:inline-block;
+        box-shadow: 0 0 5px 0 #707070;
+        text-align: center;
+        padding: 3%;
+        font-size: 19px;
+        color: #707070;
+        margin: 5%;
+       /* margin-left: 5%;
+        margin-right: 5%*/
+        background-color: white;
+        width:100px;
+        height:100px;
+    }
+    .kategorie:hover {
+        display:inline-block;
+        box-shadow: 0 0 10px 0 #707070;
+        text-align: center;
+        padding: 3%;
+        font-size: 19px;
+        color: #707070;
+        margin: 5%;
+                /*0 auto;
+        margin-left: 5%;
+        margin-right: 5%;*/
+        background-color: white;
+        width:100px;
+        height:100px;
+    }
+
+    .kategorie a {
+        font-size: 19px;
+        color: #707070;
+        text-decoration: none;
+    }
+    div .maincontent{
+        width: 62%;
+    }
+    div .sidebar {
+        width: 26%;
+        padding: 0 1% 0 1%;
+        margin-left: 5%;
+        margin-right: 3%;
+        box-shadow: 0 0 5px 0 #707070;
+    }
+}
