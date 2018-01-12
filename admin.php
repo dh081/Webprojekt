@@ -5,7 +5,7 @@
  * Date: 14.11.2017
  * Time: 10:56
  */
-//include_once"system/registrierung/admincheck.php";
+include_once "system/registrierung/admincheck.php";
 echo ' <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -23,9 +23,9 @@ echo ' <!DOCTYPE html>
     <div class="menuadmin">
         <ul>
             <li> <a href="admin.php">Dashboard</a><li>
-
             <li> <a href="produktadmin.php">Produkte</a></li>
             <li> <a href="bestellungenadmin.php">Bestellungen</a></li>
+            <li><a href="system/registrierung/adminlogout.php">Logout</a></li>
 
         </ul>
     </div>

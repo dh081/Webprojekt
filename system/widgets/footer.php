@@ -27,6 +27,7 @@ echo '
                 <li><a href="versand.php">Versand- & Zahlungsbedingungen</a></li>
                 <li><a href="kontakt.php">Kontakt</a></li>
                 <li><a href="system/registrierung/adminformular.php">Admin</a></li>
+                
             </ul>   
     </div>  
       

@@ -22,10 +22,9 @@ echo ' <!DOCTYPE html>
     <div class="menuadmin">
         <ul>
             <li> <a href="admin.php">Dashboard</a><li>
-            <li> <a href="kategorieadmin.php">Kategorien</a><li>
             <li> <a href="produktadmin.php">Produkte</a></li>
             <li> <a href="bestellungenadmin.php">Bestellungen</a></li>
-            <li> <a href="#">Log Out</a></li>
+            <li><a href="system/registrierung/adminlogout.php">Logout</a></li>
         </ul>
     </div>
   <div class="bodyadmin">Bestellungen</div>
