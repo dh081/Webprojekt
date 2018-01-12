@@ -1,13 +1,6 @@
 <?php
 session_start();
 include_once("datenbankverbindung.php");
-/*$db = new PDO('mysql:host=localhost;dbname=u-mb280', $dbuser, $dbpass);
-?>*/
-
-
-
-$showFormular = true;
-if(isset($_GET['register'])) {
     $error = false;
     $username = $_POST['username'];
     $lname = $_POST['lname'];
@@ -29,7 +22,8 @@ if(isset($_GET['register'])) {
     //Überprüft ob Username schon vergeben ist
     if(!$error) {
         $statement = $db->prepare("SELECT * FROM kunden WHERE username = :username");
-        $result = $statement->execute(array('username' => $username));
+        $statement->bindParam(":username", $username, PDO::PARAM_STR);
+        $statement->execute();
         $user = $statement->fetch();
         if($user !== false) {
             echo 'Dieser Login ist schon vergeben<br>';
@@ -39,17 +33,26 @@ if(isset($_GET['register'])) {
     //neuer Nutzer wird in Datenbank gespeichert
     if(!$error) {
         $password_hash = password_hash($password, PASSWORD_DEFAULT); //passwort wird verschlüsselt
-        $statement = $db->prepare("INSERT INTO kunden (username, password, email, lname, ort, plz, anschrift) VALUES (:username, :password, :email, :lname, :ort, :plz, :anschrift,)");
-        $result = $statement->execute(array('username' => $username, 'password' => $password_hash, 'email' => $email, 'lname' => $name, 'ort' => $ort, 'plz' => $plz, 'anschrift' => $anschrift));
+        $statement = $db->prepare("INSERT INTO kunden (kundennummer, username, lname, anschrift, plz, ort, email, password) VALUES (:kundennummer, :username, :lname, :anschrift, :plz, :ort, :email, :password)");
+        $varNull = null;
+        $statement->bindParam(":kundennummer", $varNull, PDO::PARAM_NULL);
+        $statement->bindParam(":username", $username, PDO::PARAM_STR);
+        $statement->bindParam(":lname", $lname, PDO::PARAM_STR);
+        $statement->bindParam(":anschrift", $anschrift, PDO::PARAM_STR);
+        $statement->bindParam(":plz", $plz, PDO::PARAM_INT);
+        $statement->bindParam(":ort", $ort, PDO::PARAM_STR);
+        $statement->bindParam(":email", $email, PDO::PARAM_STR);
+        $statement->bindParam(":password", $password_hash, PDO::PARAM_STR);
+        $statement->execute();
+        /*$result = $statement->execute(array(':username' => $username, ':password' => $password_hash, ':email' => $email, ':lname' => $lname, ':ort' => $ort, ':plz' => $plz, ':anschrift' => $anschrift));*/
         $db = null;
-        if($result) {
+        if($statement) {
             echo 'Registrierung erfolgreich! <a href="../../index.php">zurück</a>';
-            $showFormular = false;
+
         } else {
             echo 'Beim Abspeichern ist ein Fehler aufgetreten<br>';
         }
     }
-}
 ?>
 <!DOCTYPE html>
 <html>

@@ -1,6 +1,6 @@
 <div class="#">
     <h1>REGISTRIERUNG</h1>
-    <form action="registrierung.php?register=1" method="post">
+    <form action="registrierung.php" method="post">
 
         <input type="text" size="40" maxlength="250" name="lname" placeholder="Dein Name"><br>
 

@@ -15,17 +15,17 @@ echo ' <!DOCTYPE html>
   </head>
   <body>
   <div class="kopfleisteadmin">
-    <a href="https://mars.iuk.hdm-stuttgart.de/~mb280/index.php" target="_blank">Zum Shop</a>
+    <a href="index.php" target="_blank">Zum Shop</a>
     <a href="#" target="_blank" style="vertical-align: top; margin-left: 89%">Logout</a>
   </div>
   <div class="menuadminaußen">
     <div class="menuadmin">
         <ul>
             <li> <a href="admin.php">Dashboard</a><li>
-            <li> <a href="kategorieadmin.php">Kategorien</a><li>
+
             <li> <a href="produktadmin.php">Produkte</a></li>
             <li> <a href="bestellungenadmin.php">Bestellungen</a></li>
-            <li> <a href="#">Log Out</a></li>
+
         </ul>
     </div>
   <div class="bodyadmin">Dashboard</div>
