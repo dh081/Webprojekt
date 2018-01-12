@@ -5,6 +5,7 @@
  * Date: 14.11.2017
  * Time: 10:56
  */
+//include_once"system/registrierung/admincheck.php";
 echo ' <!DOCTYPE html>
 <html lang="de">
   <head>

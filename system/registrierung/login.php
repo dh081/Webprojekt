@@ -17,7 +17,8 @@ include_once("datenbankverbindung.php");
         echo "Eingeloggt";
 
     } else {
-        $errorMessage = "Login oder Passwort war ungültig<br>";
+        echo "Anmeldung fehlgeschlagen!";
+        echo "<br> <a href='../../index.php'>Zurück</a>";
 
 }
 ?>
