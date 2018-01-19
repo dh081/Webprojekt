@@ -160,9 +160,10 @@ nav a:active {
     font-size: 25px;
 }
 
-div .maincontent{
+.maincontent{
     float: left;
     width: 62%;
+    font-size: 20px;
 }
 div .sidebar {
     float: left;

@@ -20,12 +20,12 @@ echo '
 <div class="produktseitebild"></div>
 <div class="produktseitetext">
 <div style="border-bottom: 1px solid #EEEEEE;">
-<h1>Hinkelstein</h1>
+<h1>Flacher Stein</h1>
 <br>
 </div>
-<h2>2000 €</h2>
+<h2>50 €</h2>
 <button>Jetzt kaufen</button>
-<p>Unsere Hinkelsteine stammen aus dem familieneigenen Steinbruch. Sie sind steinhart und werden schnell geliefert!<br>
+<p>Unsere Flachen Steine stammen aus dem familieneigenen Steinbruch. Sie sind steinhart und werden schnell geliefert!<br>
 Gratis Lieferung!
 <br>
 <br>
@@ -48,19 +48,19 @@ include "datenbank.php";
 echo '
 <div class="produktseitebeschreibung">
 <b>EAN-Code:        </b>';
-$sqlabfrage= "SELECT produktean FROM produkte WHERE id=1";
+$sqlabfrage= "SELECT produktean FROM produkte WHERE id=3";
 foreach ($db->query($sqlabfrage) as $row) {
     echo $row['produktean'];
 }
 echo '<br>
 <b>Preis in Euro:         </b>';
-$sqlabfrage= "SELECT produktpreis FROM produkte WHERE id=1";
+$sqlabfrage= "SELECT produktpreis FROM produkte WHERE id=3";
 foreach ($db->query($sqlabfrage) as $row) {
     echo $row['produktpreis'];
 }
 echo '<br>
 <b>Eigenschaften:         </b>';
-$sqlabfrage= "SELECT produktbeschreibung FROM produkte WHERE id=1";
+$sqlabfrage= "SELECT produktbeschreibung FROM produkte WHERE id=3";
 foreach ($db->query($sqlabfrage) as $row) {
     echo $row['produktbeschreibung'];
 }

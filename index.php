@@ -34,28 +34,28 @@ Zum Shop
 </div>
 <br>
 <div class="textboxgrau">
-<div class="zitat">Lorem ipsum dolor sit amet, sadipscing elitr, sed diam<br> nonumy eirmod tempor invidunt ut labore et dolore magn<br><b>Fresh D. - CEO</b></div>
+<div class="zitat">Auch aus Steinen, die einem in den Weg<br>gelegt werden,kann man Schönes bauen.<br><b>Johann Wolfgang von Goethe</b></div>
 </div>
 <br>
 <div class="kategorieauswahl">
    <div class="kategorie"><a href="hinkelstein.php">Hinkelstein<a/></div>
-   <div class="kategorie">Produkt 2</div>
-   <div class="kategorie">Produkt 3</div>
-   <div class="kategorie">Produkt 4</div>
+   <div class="kategorie"><a href="spitzerstein.php">Spitzer Stein</a></div>
+   <div class="kategorie"><a href="flacherstein.php">Flacher Stein</a></div>
+   <div class="kategorie"><a href="backstein.php">Backstein</a></div>
 </div>
 <br>
 <div class="banner2">
 </div>
 <div style="padding: 3%; height: 400px;">
 <div class="maincontent">
-Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
-
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   
-
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.   
-
+<br>
+Herzlich Willkommen im Stone Shop!<br>
+Wir bieten Ihnen hier die Möglichkeit aus einer Vielzahl von Steinen aus der ganzen Welt zu wählen.<br>
+In unserer Collection haben Sie die Möglichkeit jeden Stein zu betrachten und sich darüber zu Informieren.<br>
+Stone Shop bietet Ihnen neben der großen Auswahl und kompetenter Beratung alle Produkte und Dienstleistungen trotz höchster Qualität stets preiswert an.
+Alle unsere Steine sind Naturbelassen und können sowohl im Innen- als auch im Außenbereich eingesetzt werden. In unserem Lager in Gallien sind dauerhaft eine große Zahl an Steinen vorrätig und sofort lieferbar.
+Wir freuen uns auf Ihre Anfrage. <br>
+- In Stone we trust.
 </div>
 
 
