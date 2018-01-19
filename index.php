@@ -27,23 +27,15 @@ Zum Shop
 </div>
 <br>
 <div class="kategorieauswahl">
-   <div class="kategorie">Spitze Steine</div>
-   <div class="kategorie">Flache Steine</div>
-   <div class="kategorie">Backsteine</div>
-   <div class="kategorie">Hinkelsteine</div>
-</div>
-<br>
-<div class="textboxgrau">
-<div class="zitat">Auch aus Steinen, die einem in den Weg<br>gelegt werden,kann man Schönes bauen.<br><b>Johann Wolfgang von Goethe</b></div>
-</div>
-<br>
-<div class="kategorieauswahl">
    <div class="kategorie"><a href="hinkelstein.php">Hinkelstein<a/></div>
    <div class="kategorie"><a href="spitzerstein.php">Spitzer Stein</a></div>
    <div class="kategorie"><a href="flacherstein.php">Flacher Stein</a></div>
    <div class="kategorie"><a href="backstein.php">Backstein</a></div>
 </div>
 <br>
+<div class="textboxgrau">
+<div class="zitat">Auch aus Steinen, die einem in den Weg<br>gelegt werden,kann man Schönes bauen.<br><b>Johann Wolfgang von Goethe</b></div>
+</div>
 <div class="banner2">
 </div>
 <div style="padding: 3%; height: 400px;">
@@ -61,9 +53,9 @@ Wir freuen uns auf Ihre Anfrage. <br>
 
 <div class="sidebar">
 <a href="hinkelstein.php">Unser Bestseller</a>
-</div>
-</div>
 
+</div>
+</div>
 ';
 include ("system/widgets/footer.php");
 echo "</body></html>";

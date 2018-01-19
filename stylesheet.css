@@ -90,11 +90,10 @@ nav a:active {
     width: 100%;
     color: white;
     position: absolute;
-    top: 50%;
+    top: 47%;
     text-align: center;
     font-size: 40px;
     font-family: 'Abel', sans-serif;
-
 }
 
 .banner2 {
@@ -163,7 +162,7 @@ nav a:active {
 div .maincontent{
     float: left;
     width: 62%;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 div .sidebar {
@@ -370,7 +369,26 @@ ul {
     background-size: cover;
     background-position: center center;
 }
-
+.produktseitebildd {
+    width: 45%;
+    display:inline-block;
+    float: left;
+    margin: 2%;
+    height: 400px;
+    background-image: url("https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/backstein.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.produktseitebilddd {
+    width: 45%;
+    display:inline-block;
+    float: left;
+    margin: 2%;
+    height: 400px;
+    background-image: url("https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/flacherstein.jpg");
+    background-size: cover;
+    background-position: center center;
+}
 .produktseitetext {
     width: 45%;
     display:inline-block;

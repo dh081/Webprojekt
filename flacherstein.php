@@ -15,9 +15,8 @@ echo ' <!DOCTYPE html>
   </head>';
 include ("system/widgets/header.php");
 echo '
-
 <div>
-<div class="produktseitebild"></div>
+<div class="produktseitebilddd"></div>
 <div class="produktseitetext">
 <div style="border-bottom: 1px solid #EEEEEE;">
 <h1>Flacher Stein</h1>

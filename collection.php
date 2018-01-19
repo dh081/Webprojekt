@@ -20,6 +20,13 @@ Die besten Steine für Klein und Groß!
 <h2 style="text-align: center;">Unser Sortiment an handverlesenen Qualitätssteinen</h2>
 <br>
 <div class="shopvorgeschlageneprodukte">
+   <div class="kategorie"><a href="hinkelstein.php">Hinkelstein<a/></div>
+   <div class="kategorie"><a href="spitzerstein.php">Spitzer Stein</a></div>
+   <div class="kategorie"><a href="flacherstein.php">Flacher Stein</a></div>
+   <div class="kategorie"><a href="backstein.php">Backstein</a></div>
+</div>
+<br>
+<div class="shopvorgeschlageneprodukte">
     <div class="produkteshop">
     Bild
     <p>Hinkelstein</p>
