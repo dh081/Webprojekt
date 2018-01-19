@@ -9,6 +9,8 @@ echo ' <!DOCTYPE html>
   </head>';
 include ("system/widgets/header.php");
 
+
+
 echo '
 <div>
     <div class="bannershop">
@@ -22,7 +24,7 @@ Die besten Steine für Klein und Groß!
 <div class="shopvorgeschlageneprodukte">
     <div class="produkteshop">
     Bild
-    <p>Hinkelstein</p>
+    <p> Hinkelstein</p>
     </div>
     <div class="produkteshop">
     Bild

@@ -60,23 +60,7 @@ Wir freuen uns auf Ihre Anfrage. <br>
 
 
 <div class="sidebar">
-<ul>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-    <li>Beispiel</li>
-</ul>
-
+<a href="hinkelstein.php">Unser Bestseller</a>
 </div>
 </div>
 
