@@ -199,6 +199,36 @@ div .sidebar {
 
 }
 
+/*Überuns*/
+.aboutus {
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.about {
+    font-size: 22px;
+    text-decoration: none;
+    float: left;
+    display: inline-block;
+    width: 40%;
+    margin-right: 8%;
+    line-height: 1.5;
+
+}
+
+.about a {
+    text-decoration: underline;
+    font-size: 22px;
+    color: #000000;
+}
+
+.about_img {
+
+
+}
+
 /* Footer
 */
 
