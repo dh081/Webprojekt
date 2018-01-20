@@ -22,7 +22,7 @@ echo '
                 <li><a href="impressum.php">Impressum</a></li>
                 <li><a href="datenschutz.php">Datenschutz</a></li>
                 <li><a href="agb.php">AGB</a></li>
-                <li><a href="faq.php">FAQ</a></li>
+                
                 <li><a href="widerrufsrecht.php">Widerrufsrecht & Widerrufsformular</a></li>
                 <li><a href="versand.php">Versand- & Zahlungsbedingungen</a></li>
                 <li><a href="kontakt.php">Kontakt</a></li>

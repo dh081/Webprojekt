@@ -229,6 +229,59 @@ div .sidebar {
 
 }
 
+/*Versand*/
+
+
+.Bedingungen {
+    width: 100%;
+    height:500px;
+
+}
+
+.Bedingungen h2 {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+}
+
+.Versand{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    font-size: 22px;
+    margin-left: 25%;
+}
+
+.Versand ul {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.Versand ul li p {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.Zahlung {
+
+    float:left;
+    font-size: 22px;
+}
+
+.Zahlung ul {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.Zahlung ul li p span {
+    font-size: 20px;
+    vertical-align: middle;
+}
+.Bedingungen .Zahlung li img {
+    width: 20%;
+}
+.Bedingungen .Versand li img {
+    width: 20%;
+}
 /* Footer
 */
 
