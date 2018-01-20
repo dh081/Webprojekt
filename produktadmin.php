@@ -5,6 +5,68 @@
  * Date: 14.11.2017
  * Time: 10:56
  */
+include "datenbank.php";
+echo'<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>Produkte</title>
+  </head>
+  <body>
+  <div class="kopfleisteadmin">
+    <a href="index.php" target="_blank">Zum Shop</a>
+    <a href="#" target="_blank" style="vertical-align: top; margin-left: 89%">Logout</a>
+  </div>
+  <div class="menuadminaußen">
+    <div class="menuadmin">
+        <ul>
+            <li> <a href="admin.php">Dashboard</a><li>
+            <li> <a href="produktadmin.php">Produkte</a></li>
+            <li> <a href="bestellungenadmin.php">Bestellungen</a></li>
+            <li><a href="system/registrierung/adminlogout.php">Logout</a></li>
+        </ul>
+    </div>
+    
+<div class="bodyadmin">
+Produkte
+<br>
+<div class="produktoption">
+<a href="produktneu.php">Neues Produkt anlegen</a>
+<a href="produktbearbeiten.php">Produkte bearbeiten</a>
+</div>
+<br>
+
+Gesamtprodukte
+<table class="produktlist">
+<tr>
+<th>Name</th>
+<th>Beschreibung</th>
+<th>EAN</th>
+<th>Preis</th>
+</tr>';
+$select = $db->query("SELECT `produktname`, `produktbeschreibung`, `produktean`, `produktpreis` 
+                      FROM `produkte`");
+$produkte = $select->fetchAll(PDO::FETCH_OBJ);
+
+
+
+foreach ($produkte as $produkt) {
+    echo
+
+        '<tr>' .
+        '<td>' . $produkt->produktname  .'</td>' .
+        '<td>' . $produkt->produktbeschreibung . '</td>' .
+        '<td>' . $produkt->produktean . '</td>' .
+        '<td>' . $produkt->produktpreis . '</td>';
+}
+echo'
+</table>
+</div>
+</div>
+</body>';?>
+<!--
 echo ' <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -83,7 +145,7 @@ foreach ($produkte as $produkt) {
 
 }}
 
-else */
+else
 $select = $db->query("SELECT `produktname`, `produktbeschreibung`, `produktean`, `produktpreis` 
                       FROM `produkte`");
 $produkte = $select->fetchAll(PDO::FETCH_OBJ);
@@ -101,11 +163,4 @@ foreach ($produkte as $produkt) {
 '<td><a href="produktbearbeiten.php">Bearbeiten</td></tr>';
 }
 ?>
-</table>
 
-</div>
-</div>
-
-  </body>
-
-';

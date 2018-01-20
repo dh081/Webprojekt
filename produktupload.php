@@ -12,13 +12,12 @@ $produktbeschreibung = $_POST ["produktbeschreibung"];
 $produktean = $_POST ["produktean"];
 $produktpreis = $_POST ["produktpreis"];
 
-try {
+if (!empty($produktname) && !empty($produktbeschreibung) && !empty($produktean) && !empty($produktpreis)) {
     $statement = $db->prepare("INSERT INTO produkte (produktname, produktbeschreibung, produktean, produktpreis)
 VALUES (:produktname, :produktbeschreibung, :produktean, :produktpreis)");
     $statement->execute(array('produktname' => $produktname, 'produktbeschreibung' => $produktbeschreibung, 'produktean' => $produktean, 'produktpreis' => $produktpreis));
-$db = null;
+header("Location: produktadmin.php");
     }
-    catch (PDOException $e) {
-        echo "Error!";
-        die();
+    else {
+        echo "Bitte jedes Feld ausfüllen.";
     }
