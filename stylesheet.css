@@ -623,10 +623,16 @@ ul {
 
 }
 
-
-
-
 .produktlist tr:hover {background-color: white}
+
+.produktoption {
+    margin-top: 2%;
+}
+.produktoption a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Formular
 */
 
