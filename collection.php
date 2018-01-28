@@ -8,7 +8,22 @@ echo ' <!DOCTYPE html>
     <title>Stone Shop</title>
   </head>';
 include ("system/widgets/header.php");
+include "datenbank.php";
+echo '<div class="shopvorgeschlageneprodukte">';
+$sql = "SELECT * FROM produkte";
+foreach ($db->query($sql) as $row){
+    $row["id"];
+    $id = $row["id"];
+    echo "<div class=\"kategorie\">" . $row["produktname"] . "<br>" . "<br>" . "<a href=\"https://mars.iuk.hdm-stuttgart.de/~dh081/produktansicht.php?id=$id\"> Details </a>" . "</div>";
+    //echo "Preis: " . $row["produktpreis"]. "€" . "<br>";
+    //echo "EAN: " . $row["produktean"] . "<br>";
+    //echo "Eigenschaften: " . $row["produktbeschreibung"] . "<br>" . "<a href=\"collection.php&id=1\"> Details </a>". "</div>". "<br>" . "<br>";
+}
 
+echo'</div>';
+
+
+/*
 echo '
 <div>
     <div class="bannershop">
@@ -106,4 +121,5 @@ Die besten Steine für Klein und Groß!
 </div>
 <br>
 </div>';
+*/
 include ("system/widgets/footer.php");
