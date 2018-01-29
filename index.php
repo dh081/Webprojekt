@@ -27,10 +27,10 @@ Zum Shop
 </div>
 <br>
 <div class="kategorieauswahl">
-   <div class="kategorie"><a href="hinkelstein.php">Hinkelstein<a/></div>
-   <div class="kategorie"><a href="spitzerstein.php">Spitzer Stein</a></div>
-   <div class="kategorie"><a href="flacherstein.php">Flacher Stein</a></div>
-   <div class="kategorie"><a href="backstein.php">Backstein</a></div>
+   <div class="kategorie"><a href="hinkelstein.php"><p>Hinkelstein</p><img src="https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/hinkelstein.jpg"></a> </div>
+   <div class="kategorie"><a href="spitzerstein.php"><p>Spitzer Stein</p><img src="https://mars.iuk.hdm-stuttgart.de/~mb280/bilder/spitzerstein.jpg"></a></div>
+   <div class="kategorie"><a href="flacherstein.php"><p>Flacher Stein</p><img src="https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/flacherstein.jpg"></a></div>
+   <div class="kategorie"><a href="backstein.php"><p>Backstein</p><img src="https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/backstein.jpg"></a></div>
 </div>
 <br>
 <div class="textboxgrau">
@@ -52,7 +52,8 @@ Wir freuen uns auf Ihre Anfrage. <br>
 
 
 <div class="sidebar">
-<a href="hinkelstein.php">Unser Bestseller</a>
+<a href="hinkelstein.php"><p>Unser Bestseller</p>
+<img src="https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/hinkelstein.jpg"> </a>
 
 </div>
 </div>

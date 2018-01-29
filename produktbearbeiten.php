@@ -4,7 +4,7 @@ include ("datenbank.php");
 
 $produktid = $_GET ["id"];
 $statement =$db->prepare("SELECT * FROM `produkte` WHERE id =".$produktid);
-
+$statement->execute();
 $produkte = $statement->fetchAll();
 
 foreach ($produkte as $produkt) {

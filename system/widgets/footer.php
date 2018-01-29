@@ -38,7 +38,9 @@ echo '
             <i class="fa fa-map-marker">
             </i>
             <p> 
-                <span>Steinstra&szlig;e 1 , 12345 Steinhausen Gallien</span>
+                <span>Steinstra&szlig;e 1,</span><br> 
+                <span>12345 Steinhausen</span><br> 
+                <span>Gallien</span>
                 
             </p>
             <br>
