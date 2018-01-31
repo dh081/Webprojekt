@@ -199,7 +199,7 @@ E-Mail support@stoneshop.com<br />
 
 Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf der folgenden Waren (*)/die Erbringung der folgenden Dienstleistung (*)<br />
 <br />
-_____________________________________________________<br />
+__________________________________________<br />
 <br />
 Bestellt am (*)/erhalten am (*)<br />
 <br />
@@ -207,12 +207,12 @@ __________________<br />
 <br />
 Name des/der Verbraucher(s)<br />
 <br />
-_____________________________________________________<br />
+__________________________________________<br />
 <br />
 Anschrift des/der Verbraucher(s)<br />
 <br />
 <br />
-_____________________________________________________<br />
+__________________________________________<br />
 <br />
 Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier)<br />
 <br />

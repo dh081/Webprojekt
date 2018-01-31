@@ -23,21 +23,16 @@ echo '
 <div class="Versand">
 Unsere Versandoptionen für Sie:
 <ul>
-    <li><img src="http://aro-smoke.de/mediafiles/Bilder/dhl-logo.gif">
-    <p><span>Standardversand</span></p></li>
+    <li>
+    <p><span>Standardversand (3-5 Werktage)</span></p></li>
 </ul>
 </div>
 <div class="Zahlung">
 Unsere Zahlungsmöglichkeiten:
 <ul>
-    <li><img src="https://casinoanbieter.com/wp-content/uploads/2017/08/Lastschrift_Logo.png">
-    <p> <span> Per Lastschrift</span></p></li>
+    <li>
+    <p> <span>Auf Rechnung</span></p></li>
    <br>
-    <li><img src="http://bastel-loft.de/wp-content/uploads/2017/12/a9ef80d1bcec68e460ac238a893bfd85.png">
-    <p> <span>Barzahlung</span></p></li>
-    <br>
-    <li><img src="http://sparstar.net/wp-content/themes/sparpfote/images/icons/payment/nachnahme.png">
-    <p><span>Nachnahme</span></p></li>
 </ul>
 
 </div>
