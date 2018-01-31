@@ -907,6 +907,24 @@ ul {
     opacity: 1;
     visibility: visible;
 }
+
+.divformm {
+    margin: 0 auto;
+
+}
+.form {
+    padding: 1%;
+    margin: 2% 0 2% 0%;
+    box-shadow: 0 0 5px 0 #707070;
+    font-size: 14px;
+}
+
+.warenkorb {
+    margin: 5%;
+    padding: 5%;
+    box-shadow: 0 0 5px 0 #707070;
+    text-align: center;
+}
  /*
  Mobile Version
  */

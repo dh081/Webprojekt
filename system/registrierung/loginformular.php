@@ -27,15 +27,17 @@ echo ' <!DOCTYPE html>
     </nav>
 </div>
 <br>
-<div class="#">
+<div class="divformm">
+<div class="divform">
     <h1>LOGIN</h1>
-    <form action="login.php" method="post">
+    <form class="form" action="login.php" method="post">
         <input type="text" size="40" maxlength="250" name="username" placeholder="Login"><br>
 
         <input type="password" size="40"  maxlength="250" name="password" placeholder="Dein Passwort"><br>
 
         <input type="submit" value="Abschicken">
     </form>
+</div>
 </div>
 </body>
 <?php
