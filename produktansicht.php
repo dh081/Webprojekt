@@ -30,9 +30,9 @@ foreach ($db->query($sqlabfrage) as $row) {
     echo $row['produktpreis'];
 }
 echo '€';
-echo '</h2>
-<button>Jetzt kaufen</button>
-<p>Unsere ';
+echo "</h2>
+<a href='warenkorb.php?id=$produkt'><button>Jetzt kaufen</button></a>
+<p>Unsere ";
 $sqlabfrage= "SELECT produktname FROM produkte WHERE id=$produkt";
 foreach ($db->query($sqlabfrage) as $row) {
     echo $row['produktname'];
