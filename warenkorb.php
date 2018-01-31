@@ -49,23 +49,41 @@ foreach ($db->query($sqlabfrage) as $row) {
 }
 echo' €';
 echo '<br><br>';
-echo'<p>Gespeicherte Produkte</p>';
+echo'<p><u>Gespeicherte Produkte</u></p>';
 echo '<br>';
 //print_r($_SESSION['warenkorb']);
 if (isset($_SESSION['warenkorb'])) {
     $warenkorb = $_SESSION['warenkorb'];
 
-    foreach ($warenkorb as &$value) {
+    foreach ($warenkorb as $value) {
        echo "$value ";
-       $sqlabfrage= "SELECT produktname FROM produkte WHERE id=$value";
+       $sqlabfrage= "SELECT produktname, produktpreis FROM produkte WHERE id=$value";
             foreach ($db->query($sqlabfrage) as $row) {
                   echo $row['produktname'] . '<br>' ;
+                echo "Preis: " . $row["produktpreis"]. "€" . "<br> <br>";
+
     } ;
 }}
     else {
         echo 'Keine Produkte ausgewählt';
 }
+if (isset($_SESSION['warenkorb'])) {
+    $warenkorb = $_SESSION['warenkorb'];
 
+    foreach ($warenkorb as $value) {
+        $sqlabfrage= "SELECT produktpreis FROM produkte WHERE id=$value";
+        foreach ($db->query($sqlabfrage) as $row) {
+            $preis = $row["produktpreis"];
+
+        }
+    }
+
+}
+
+else {
+    echo 'Keine Produkte ausgewählt';
+}
+echo"<b><a href='collection.php'>Weiter Shoppen!</a></b>";
 echo "</div>";
 include ("system/widgets/footer.php");
 echo "</body></html>";
