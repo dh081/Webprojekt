@@ -25,6 +25,7 @@ echo'<!DOCTYPE html>
             <li> <a href="admin.php">Dashboard</a><li>
             <li> <a href="produktadmin.php">Produkte</a></li>
             <li> <a href="bestellungenadmin.php">Bestellungen</a></li>
+            <li> <a href="kundenadmin.php">Kunden</a></li>
             <li><a href="system/registrierung/adminlogout.php">Logout</a></li>
         </ul>
     </div>
@@ -34,19 +35,21 @@ Produkte
 <br>
 <div class="produktoption">
 <a href="produktneu.php">Neues Produkt anlegen</a>
-<a href="produktbearbeiten.php">Produkte bearbeiten</a>
+
 </div>
 <br>
 
 Gesamtprodukte
 <table class="produktlist">
 <tr>
+<th>ID</th>
 <th>Name</th>
 <th>Beschreibung</th>
 <th>EAN</th>
 <th>Preis</th>
+<th>Bearbeiten</th>
 </tr>';
-$select = $db->query("SELECT `produktname`, `produktbeschreibung`, `produktean`, `produktpreis` 
+$select = $db->query("SELECT `id`, `produktname`, `produktbeschreibung`, `produktean`, `produktpreis` 
                       FROM `produkte`");
 $produkte = $select->fetchAll(PDO::FETCH_OBJ);
 
@@ -56,10 +59,12 @@ foreach ($produkte as $produkt) {
     echo
 
         '<tr>' .
+        '<td>' . $produkt->id  .'</td>' .
         '<td>' . $produkt->produktname  .'</td>' .
         '<td>' . $produkt->produktbeschreibung . '</td>' .
         '<td>' . $produkt->produktean . '</td>' .
-        '<td>' . $produkt->produktpreis . '</td>';
+        '<td>' . $produkt->produktpreis . '</td>'.
+        '<td><a href="produktbearbeiten.php">bearbeiten</a>';
 }
 echo'
 </table>
