@@ -21,23 +21,11 @@ Die besten Steine für Klein und Groß!
 <br>
 <h2 style="text-align: center;">Unser Sortiment an handverlesenen Qualitätssteinen</h2>
 <br>
-<div class="shopvorgeschlageneprodukte">
-    <div class="produkteshop">
-    Bild
-    <p> Hinkelstein</p>
-    </div>
-    <div class="produkteshop">
-    Bild
-    <p>Spitzer Stein</p>
-    </div>
-    <div class="produkteshop">
-    Bild
-    <p>Flacher Stein</p>
-    </div>
-    <div class="produkteshop">
-    Bild
-    <p>Backstein</p>
-    </div>
+<div class="kategorieauswahl">
+    <div class="kategorie"><a href="hinkelstein.php"><p>Hinkelstein</p><img src="https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/hinkelstein.jpg"></a> </div>
+   <div class="kategorie"><a href="spitzerstein.php"><p>Spitzer Stein</p><img src="https://mars.iuk.hdm-stuttgart.de/~mb280/bilder/spitzerstein.jpg"></a></div>
+   <div class="kategorie"><a href="flacherstein.php"><p>Flacher Stein</p><img src="https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/flacherstein.jpg"></a></div>
+   <div class="kategorie"><a href="backstein.php"><p>Backstein</p><img src="https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/backstein.jpg"></a></div>
 </div>
 <br>
 <div class="bannershop2">
@@ -48,23 +36,11 @@ Die besten Steine für Klein und Groß!
 <br>
 <h2 style="text-align: center;">Die besten Steine aus ganz Gallien!</h2>
 <br>
-<div class="shopvorgeschlageneprodukte">
-    <div class="produkteshop">
-    Bild
-    <p>Hinkelsteine</p>
-    </div>
-    <div class="produkteshop">
-    Bild
-    <p>Spitze Steine</p>
-    </div>
-    <div class="produkteshop">
-    Bild
-    <p>Flache Steine</p>
-    </div>
-    <div class="produkteshop">
-    Bild
-    <p>Backsteine</p>
-    </div>
+<div class="kategorieauswahl">
+    <div class="kategorie"><a href="hinkelstein.php"><p>Hinkelstein</p><img src="https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/hinkelstein.jpg"></a> </div>
+   <div class="kategorie"><a href="spitzerstein.php"><p>Spitzer Stein</p><img src="https://mars.iuk.hdm-stuttgart.de/~mb280/bilder/spitzerstein.jpg"></a></div>
+   <div class="kategorie"><a href="flacherstein.php"><p>Flacher Stein</p><img src="https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/flacherstein.jpg"></a></div>
+   <div class="kategorie"><a href="backstein.php"><p>Backstein</p><img src="https://mars.iuk.hdm-stuttgart.de/~dh081/bilder/backstein.jpg"></a></div>
 </div>
 <br>
 <br>
