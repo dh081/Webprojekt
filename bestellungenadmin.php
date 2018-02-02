@@ -5,6 +5,7 @@
  * Date: 14.11.2017
  * Time: 10:56
  */
+include "datenbank.php";
 echo ' <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -15,7 +16,7 @@ echo ' <!DOCTYPE html>
   </head>
   <body>
   <div class="kopfleisteadmin">
-    <a href="https://mars.iuk.hdm-stuttgart.de/~mb280/index.php" target="_blank">Zum Shop</a>
+    <a href="index.php" target="_blank">Zum Shop</a>
     <a href="#" target="_blank" style="vertical-align: top; margin-left: 89%">Logout</a>
   </div>
   <div class="menuadminaußen">
@@ -27,7 +28,21 @@ echo ' <!DOCTYPE html>
             <li><a href="system/registrierung/adminlogout.php">Logout</a></li>
         </ul>
     </div>
-  <div class="bodyadmin">Bestellungen</div>
+  <div class="bodyadmin">
+  <h1>Bestellungen</h1>
+  <br>';
+
+  $sqlabfrage= "SELECT * FROM bestellung";
+foreach ($db->query($sqlabfrage) as $row) {
+    echo "Bestellungsnummer: " . $row["id"] . "<br>";
+    echo "Kundennummer: " . $row["kundennummer"] . "<br>";
+    echo "Produkt IDs: " . $row["produktids"]. "<br>";
+    echo "Datum: " . $row["datum"] . "<br><br><br>";
+}
+
+echo '
+  </div>
 </div>
   </body>
+  </html>
 ';
