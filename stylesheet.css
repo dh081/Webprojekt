@@ -227,7 +227,7 @@ div .sidebar {
 
 /*Überuns*/
 .aboutus {
-    width: 100%;
+
     margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -250,9 +250,9 @@ div .sidebar {
     color: #000000;
 }
 
-.about_img {
 
-
+.about_img img {
+    width: 40%;
 }
 
 /*Versand*/
@@ -302,12 +302,8 @@ div .sidebar {
     font-size: 20px;
     vertical-align: middle;
 }
-.Bedingungen .Zahlung li img {
-    width: 20%;
-}
-.Bedingungen .Versand li img {
-    width: 20%;
-}
+
+
 /* Footer
 */
 
@@ -908,16 +904,49 @@ ul {
     visibility: visible;
 }
 
+/*Login*/
 .divformm {
     margin: 0 auto;
-
 }
-.form {
-    padding: 1%;
-    margin: 2% 0 2% 0%;
+
+.divform{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.divformm .divform input, textarea {
+    border:  1px black;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 2px 0 2px 0;
     box-shadow: 0 0 5px 0 #707070;
     font-size: 14px;
+
 }
+.divformm .divform form {
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.divformm .divform input[type=submit] {
+    background-color: #33383b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width:50%;
+    font-size: 16px;
+
+}
+
+/*Registrierung*/
+
+
+
+/*Warenkorb*/
 
 .warenkorb {
     margin: 5%;
@@ -930,6 +959,8 @@ ul {
  */
 
 @media screen and (max-width: 1300px) {
+
+    /*Kategorie*/
     .kategorieauswahl {
         width:100%;
         text-align: center;
@@ -983,6 +1014,8 @@ ul {
         width:100px;
         opacity: 0.4;
     }
+
+    /*Sidebar*/
     div .maincontent{
         width: 62%;
     }
@@ -1030,7 +1063,7 @@ ul {
         text-align: center;
     }
 
-
+    /*Produkte*/
     .shopvorgeschlageneprodukte
     {
         width:100%;
@@ -1062,7 +1095,91 @@ ul {
         width:100px;
         height:100px;
     }
+   /*Ueberuns*/
+    .aboutus {
+        margin: 2% 5% 2% 5%;
+    }
+    .about {
+        font-size: 15px;
+        text-decoration: none;
+        float: left;
+        display: inline-block;
+        width: 100%;
+        margin-right: 8%;
+        line-height: 1.5;
 
+    }
+
+    .about a {
+        text-decoration: underline;
+        font-size: 15px;
+        color: #000000;
+    }
+
+
+    .about_img img {
+        width: 95%;
+    }
+
+    /*Widerruf*/
+    .rechtliches .rechtliches-text {
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: left;}
+
+    /*Versand*/
+
+    .Bedingungen {
+        height: auto;
+
+
+    }
+
+    .Bedingungen h2 {
+        text-align: left;
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+
+    .Versand{
+        width: 100%;
+        float: left;
+        font-size: 20px;
+        margin-left: 10%;
+    }
+
+    .Zahlung {
+        margin-left: 10%;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+
+    /*Kontakt*/
+
+    .kontakttext, .kontaktform  {
+        height: 250px;
+
+    }
+
+    .kontakttotal .kontaktform {
+        margin-left: 10%;
+        display: block;
+        width: 90%;
+        margin-bottom: 140%;
+
+    }
+
+    .kontaktsocial .socialicon {
+        margin-left:30%;
+    }
+
+    #map iframe {
+        height: 50%;
+        width: 133%;
+        margin-left: 0;
+
+    }
+    /*Footer*/
     #footer-total {
         background-color: #212121;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -1089,8 +1206,6 @@ ul {
 
     .footer-left, .footer-center, .footer-right hr {
         color: #ffffff;
-
-
 
     }
 
@@ -1224,5 +1339,11 @@ ul {
         min-height: 30px;
         padding: 7px 0;
         font-size: 12px;
+    }
+
+    /*Login*/
+    .divform{
+       margin:0;
+        text-align: center;
     }
 }

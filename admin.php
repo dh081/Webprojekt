@@ -26,6 +26,7 @@ echo ' <!DOCTYPE html>
             <li> <a href="admin.php">Dashboard</a><li>
             <li> <a href="produktadmin.php">Produkte</a></li>
             <li> <a href="bestellungenadmin.php">Bestellungen</a></li>
+            <li> <a href="kundenadmin.php">Kunden</a></li>
             <li><a href="system/registrierung/adminlogout.php">Logout</a></li>
 
         </ul>

@@ -10,7 +10,7 @@ echo ' <!DOCTYPE html>
 
     <title>Stone Shop</title>
 </head>
-<body>'; ?>
+
 <div class="divnav">
 
     <ul>
@@ -22,34 +22,24 @@ echo ' <!DOCTYPE html>
             <li><a href="../../shop.php">Shop</a></li>
             <li><a href="../../collection.php">Collection</a></li>
             <li><a href="../../ueber-uns.php">Über Uns</a></li>
-            <li><a href="#">Login</a></li>
+            <li><a href="loginformular.php">Login</a></li>
         </ul>
     </nav>
 </div>
 <br>
 <div class="divformm">
 <div class="divform">
-    <h1>LOGIN</h1>
+    <h2 style="border-bottom: 1px solid #EEEEEE;">LOGIN</h2>
     <form class="form" action="login.php" method="post">
-        <input type="text" size="40" maxlength="250" name="username" placeholder="Login"><br>
+        <input type="text" size="40" maxlength="250" name="username" placeholder="Login"><br><br>
 
-        <input type="password" size="40"  maxlength="250" name="password" placeholder="Dein Passwort"><br>
+        <input type="password" size="40"  maxlength="250" name="password" placeholder="Dein Passwort"><br><br>
 
-        <input type="submit" value="Abschicken">
+        <input type="submit" value="Login">
     </form>
 </div>
 </div>
-</body>
-<?php
-echo '
 
-<head>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
-</head>
-
-&nbsp
 <footer id="footer-total">
     <div class="footer-left">
         <span class="footer-ueberschrift">Rechtliches</span>
@@ -58,11 +48,13 @@ echo '
                 <li><a href="../../impressum.php">Impressum</a></li>
                 <li><a href="../../datenschutz.php">Datenschutz</a></li>
                 <li><a href="../../agb.php">AGB</a></li>
-                <li><a href="../../faq.php">FAQ</a></li>
                 <li><a href="../../widerrufsrecht.php">Widerrufsrecht & Widerrufsformular</a></li>
                 <li><a href="../../versand.php">Versand- & Zahlungsbedingungen</a></li>
                 <li><a href="../../kontakt.php">Kontakt</a></li>
                 <li><a href="adminformular.php">Admin</a></li>
+                <li><a href="registrierungsformular.php">Registrierung</a></li>
+                <li><a href="logout.php">Logout</a></li>
+                <li><a href="../../warenkorb.php">Warenkorb</a></li>
             </ul>   
     </div>  
       
@@ -72,7 +64,9 @@ echo '
             <i class="fa fa-map-marker">
             </i>
             <p> 
-                <span>Steinstra&szlig;e 1 , 12345 Steinhausen Gallien</span>
+                <span>Steinstra&szlig;e 1,</span><br> 
+                <span>12345 Steinhausen</span><br> 
+                <span>Gallien</span>
                 
             </p>
             <br>
@@ -118,6 +112,7 @@ echo '
      
 </footer>
  
+</body>
 
 
 ';

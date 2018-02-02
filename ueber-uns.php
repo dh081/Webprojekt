@@ -32,7 +32,7 @@ unseres Erfolges herausgefunden haben. Dadurch besitzen wir in ganz Gallien ein 
 Wir freuen uns über Ihre <a href="kontakt.php">Anfrage</a> und hoffen, dass wir Ihre Wünsche entsprechend umsetzten können.
 </div>
 <div class="about_img">
-<img src="https://ds1.static.rtbf.be/article/image/624x351/7/7/2/114ef345097bdf3abe74fea739ceb278-1497529307.jpg">
+<img src="https://mars.iuk.hdm-stuttgart.de/~mb280/bilder/ueberuns.jpg">
 </div>
 </div>
 ';

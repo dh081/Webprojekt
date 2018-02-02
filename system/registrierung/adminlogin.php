@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once("datenbankverbindung.php");
+include_once("../../datenbank.php");
     $username = $_POST['username'];
     $password = $_POST['password'];
     //Den Usernamen in der Datenbank Suchen
