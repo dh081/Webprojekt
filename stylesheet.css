@@ -904,16 +904,49 @@ ul {
     visibility: visible;
 }
 
+/*Login*/
 .divformm {
     margin: 0 auto;
-
 }
-.form {
-    padding: 1%;
-    margin: 2% 0 2% 0%;
+
+.divform{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.divformm .divform input, textarea {
+    border:  1px black;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 2px 0 2px 0;
     box-shadow: 0 0 5px 0 #707070;
     font-size: 14px;
+
 }
+.divformm .divform form {
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.divformm .divform input[type=submit] {
+    background-color: #33383b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width:50%;
+    font-size: 16px;
+
+}
+
+/*Registrierung*/
+
+
+
+/*Warenkorb*/
 
 .warenkorb {
     margin: 5%;
@@ -1306,5 +1339,11 @@ ul {
         min-height: 30px;
         padding: 7px 0;
         font-size: 12px;
+    }
+
+    /*Login*/
+    .divform{
+       margin:0;
+        text-align: center;
     }
 }

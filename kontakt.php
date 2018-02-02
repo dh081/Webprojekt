@@ -39,21 +39,13 @@ echo '
 <div class="kontaktform">
 <p>Schreiben Sie uns, wir beraten Sie gerne.</p>
 <br>
-<form method="post" action="sendmail.php">
-<!--<label for="Name"><b>Name:</b></label><br>-->
-<input type="text"  name="Name" placeholder="Name"><br><br>
- 
-<!--<label for="Email"><b>E-Mail:</b></label><br>-->
-<input type="text" name="Email" placeholder="Email"><br><br>
- 
-<!--<label for="Betreff"><b>Betreff:</b></label><br>-->
-<input type="text" name="Betreff" placeholder="Betreff"><br><br>
- 
-<!--<label for="Nachricht"><b>Nachricht:</b></label><br>-->
-<textarea name="Nachricht" placeholder="Nachricht..." rows="10" cols="50"></textarea> <br><br>
- 
-<input type="submit" value="Absenden">
-</form>
+    <form method="post" action="sendmail.php">
+        <input type="text"  name="Name" placeholder="Name"><br><br>
+        <input type="text" name="Email" placeholder="Email"><br><br>
+        <input type="text" name="Betreff" placeholder="Betreff"><br><br>
+        <textarea name="Nachricht" placeholder="Nachricht..." rows="10" cols="50"></textarea> <br><br>
+        <input type="submit" value="Absenden">
+    </form>
 </div>
 
 <div class="kontaktsocial">
