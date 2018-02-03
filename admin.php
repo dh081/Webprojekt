@@ -6,6 +6,7 @@
  * Time: 10:56
  */
 include_once "system/registrierung/admincheck.php";
+include "datenbank.php";
 echo ' <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -30,7 +31,46 @@ echo ' <!DOCTYPE html>
 
         </ul>
     </div>
-  <div class="bodyadmin">Dashboard</div>
+  <div class="bodyadmin">
+  <h1>Dashboard</h1>
+  <div style="float: left; margin: 1%; padding: 1%">
+  <br>
+  Hier geht es zu den <a href="produktadmin.php">Produkten</a>
+  <br><br>
+  Hier geht es zu den <a href="bestellungenadmin.php">Bestellungen</a>
+  <br><br>
+  Hier geht es zum <a href="index.php">Shop</a>
+  <br><br>
+  </div>
+  <div style="float: left; margin: 1%; padding: 1%">
+  <b>Übersicht der aktuellen Bestellungen</b>
+  <br><br>
+  ';
+$sqlabfrage= "SELECT * FROM bestellung";
+foreach ($db->query($sqlabfrage) as $row) {
+    echo "Bestellungsnummer: " . $row["id"] . "<br>";
+    echo "Kundennummer: " . $row["kundennummer"] . "<br>";
+    echo "Produkt IDs: " . $row["produktids"]. "<br>";
+    echo "Datum: " . $row["datum"] . "<br><br><br>";
+}
+echo '
+</div>
+  <div style="float: left; margin: 1%; padding: 1%">
+  <b>Quick Produkt Upload</b>
+  <br>
+  <br>
+  <div>
+   <form method="post" action="produktupload.php">
+    <input type="text"  name="produktbild" placeholder="Bild einfügen"><br><br>
+    <input type="text"  name="produktname" placeholder="Titel"><br><br>
+    <textarea  name="produktbeschreibung" placeholder="Beschreibung einfügen" rows="10" cols="50"></textarea><br><br>
+    <input type="text"  name="produktean" placeholder="EAN einfügen"><br><br>
+    <input type="text"  name="produktpreis" placeholder="Preis einfügen"><br><br>
+    <input type="submit" value="Einfügen">
+   </form>
+</div>
+  </div>
+  </div>
 </div>
   </body>
 ';
