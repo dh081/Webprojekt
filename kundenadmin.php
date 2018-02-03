@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: danie_000
- * Date: 14.11.2017
- * Time: 10:56
- */
 include "datenbank.php";
 echo'<!DOCTYPE html>
 <html lang="de">
@@ -31,44 +25,41 @@ echo'<!DOCTYPE html>
     </div>
     
 <div class="bodyadmin">
-Produkte
-<br>
-<div class="produktoption">
-<a href="produktneu.php">Neues Produkt anlegen</a>
-
-</div>
+Kunden
 <br>
 
-Gesamtprodukte
+
+
 <table class="produktlist">
 <tr>
-<th>ID</th>
+<th>Kundennummer</th>
+<th>Username</th>
 <th>Name</th>
-<th>Beschreibung</th>
-<th>EAN</th>
-<th>Preis</th>
-<th>Bearbeiten</th>
+<th>Anschrift</th>
+<th>PLZ</th>
+<th>Ort</th>
+<th>Email</th>
 </tr>';
-$id=$_GET['id'];
-$select = $db->query("SELECT `id`, `produktname`, `produktbeschreibung`, `produktean`, `produktpreis` 
-                      FROM `produkte` ORDER BY `id` ASC");
-$produkte = $select->fetchAll(PDO::FETCH_OBJ);
+$select = $db->query("SELECT `kundennummer`, `username`, `name`, `anschrift`, `plz`,`ort`,`email` 
+                      FROM `kunden`");
+$kunden = $select->fetchAll(PDO::FETCH_OBJ);
 
 
 
-foreach ($produkte as $produkt) {
+foreach ($kunden as $kunde) {
     echo
 
         '<tr>' .
-        '<td>' . $produkt->id  .'</td>' .
-        '<td>' . $produkt->produktname  .'</td>' .
-        '<td>' . $produkt->produktbeschreibung . '</td>' .
-        '<td>' . $produkt->produktean . '</td>' .
-        '<td>' . $produkt->produktpreis . '</td>'.
-        '<td><a href="produktbearbeiten.php?id='.$produkte['id'].' ">bearbeiten</a></td></tr>';
+        '<td>' . $kunde->kundennummer  .'</td>' .
+        '<td>' . $kunde->username  .'</td>' .
+        '<td>' . $kunde->name . '</td>' .
+        '<td>' . $kunde->anschrift . '</td>' .
+        '<td>' . $kunde->plz . '</td>'.
+        '<td>' . $kunde->ort . '</td>'.
+        '<td>' . $kunde->email . '</td>';
 }
 echo'
 </table>
 </div>
 </div>
-</body>';
+</body>';?>

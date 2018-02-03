@@ -14,7 +14,7 @@ $produktean = $_POST ["produktean"];
 $produktpreis = $_POST ["produktpreis"];
 
 if (!empty($produktname) && !empty($produktbeschreibung) && !empty($produktean) && !empty($produktpreis)) {
-    $statement = $db->query("UPDATE produkte SET produktname= '$produktname', produktbeschreibung='$produktbeschreibung', produktean='$produktean', produktpreis='$produktpreis' WHERE id =$produktid");
+    $statement = $db->query("UPDATE produkte SET produktname= :produktname, :produktbeschreibung, :produktean, :produktpreis WHERE id =:id");
     $statement->execute();
     header("Location: produktadmin.php");
 }

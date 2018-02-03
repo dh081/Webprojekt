@@ -1,12 +1,5 @@
 <?php
-include ("datenbank.php");
 
-$produktid = $_GET ["id"];
-$statement =$db->prepare("SELECT * FROM `produkte` WHERE id = ?" );
-$statement->execute(array($produktid));
-$produkte = $statement->fetch();
-
-foreach ($produkte as $produkt) {
     echo'<!DOCTYPE html>
 <html lang="de">
   <head>
@@ -30,16 +23,29 @@ foreach ($produkte as $produkt) {
             <li><a href="system/registrierung/adminlogout.php">Logout</a></li>
         </ul>
     </div>
+    ';
+include ("datenbank.php"); //Verbindung zur Datenbank
+
+/*if (isset($_GET["id"])) { //ID Abfrage über $_GET*/
+$id=$_GET["id"];
+    $statement =$db->query("SELECT `produktname`, `produktbeschreibung`, `produktean`, `produktpreis`  FROM `produkte` WHERE `id` = ".$id ); //Produkt auslesen
+    $statement->bindParam(':id',$_GET["id"]);
+    $statement->execute();
+    $produkte = $statement->fetch();
+
+    foreach ($produkte as $produkt) {
+
+    echo'
      <div class="bodyadmin">Produkte
   <br>
 <div class="produktupload">
     <form action="produktchange.php" method="post">
-    <input type="hidden" name="produktid" value="'.$produktid.'"><br><br>
+    <input type="hidden" name="produktid" value="'.$id ["id"].'"><br><br>
     <input type="text" name="produktname" placeholder="Bild einfügen" ><br><br>
-    <input type="text" name="produktname" value="'.$produkte["produktname"] .'"><br><br>
-    <input type="text" name="produktname" value=" '.$produkte ["produktbeschreibung"] .'"><br><br>
-    <input type="text" name="produktname" value=" '.$produkte ["produktean"] .'"><br><br>
-    <input type="text" name="produktname" value=" '.$produkte ["produktpreis"] .'"><br><br>
+    <input type="text" name="produktname" value="'.$produkt["produktname"] .'"><br><br>
+    <input type="text" name="produktname" value=" '.$produkt ["produktbeschreibung"] .'"><br><br>
+    <input type="text" name="produktname" value=" '.$produkt ["produktean"] .'"><br><br>
+    <input type="text" name="produktname" value=" '.$produkt ["produktpreis"] .'"><br><br>
     <input type="submit" value="Bearbeiten">
     </form>
    </div>
