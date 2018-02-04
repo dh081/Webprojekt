@@ -39,7 +39,7 @@ echo '
 <div class="kontaktform">
 <p>Schreiben Sie uns, wir beraten Sie gerne.</p>
 <br>
-    <form method="post" action="sendmail.php">
+    <form method="post" action="kontaktanfrage.php">
         <input type="text"  name="Name" placeholder="Name"><br><br>
         <input type="text" name="Email" placeholder="Email"><br><br>
         <input type="text" name="Betreff" placeholder="Betreff"><br><br>
