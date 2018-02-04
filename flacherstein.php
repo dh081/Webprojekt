@@ -23,7 +23,7 @@ echo '
 <br>
 </div>
 <h2>50 €</h2>
-<button>Jetzt kaufen</button>
+<a href="warenkorb.php?id=3"><button>Jetzt kaufen</button></a>
 <p>Unsere Flachen Steine stammen aus dem familieneigenen Steinbruch. Sie sind steinhart und werden schnell geliefert!<br>
 Gratis Lieferung!
 <br>

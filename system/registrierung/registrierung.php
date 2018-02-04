@@ -2,14 +2,14 @@
 session_start();
 include_once("datenbankverbindung.php");
     $error = false;
-    $username = $_POST['username'];
-    $lname = $_POST['lname'];
-    $email = $_POST['email'];
-    $password = $_POST['password'];
-    $password2 = $_POST['password2'];
-    $anschrift = $_POST['anschrift'];
-    $plz = $_POST['plz'];
-    $ort = $_POST['ort'];
+    $username = htmlspecialchars($_POST['username']);
+    $lname = htmlspecialchars($_POST['lname']);
+    $email = htmlspecialchars($_POST['email']);
+    $password = htmlspecialchars($_POST['password']);
+    $password2 = htmlspecialchars($_POST['password2']);
+    $anschrift = htmlspecialchars($_POST['anschrift']);
+    $plz = htmlspecialchars($_POST['plz']);
+    $ort = htmlspecialchars($_POST['ort']);
     //Überprüft ob beide eingebenen Passwörter übereinstimmen
     if(strlen($password) == 0) {
         echo 'Passwort eingeben<br>';
@@ -47,7 +47,12 @@ include_once("datenbankverbindung.php");
         /*$result = $statement->execute(array(':username' => $username, ':password' => $password_hash, ':email' => $email, ':lname' => $lname, ':ort' => $ort, ':plz' => $plz, ':anschrift' => $anschrift));*/
         $db = null;
         if($statement) {
-            echo 'Registrierung erfolgreich! <a href="../../index.php">zurück</a>';
+            echo 'Registrierung erfolgreich! Anmeldung bestätigen und los! <a href="../../index.php">zurück</a>';
+            /*$sqlabfrage = "SELECT kundennummer FROM kunden ORDER BY kundennummer DESC LIMIT 1";
+            foreach ($db->query($sqlabfrage) as $row) {
+                $kundennummer = $row["kundennummer"];
+            }
+            echo '<a href="../../email.php?kundennummer=$kundennummer">zurück</a>';*/
 
         } else {
             echo 'Beim Abspeichern ist ein Fehler aufgetreten<br>';

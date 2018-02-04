@@ -944,8 +944,6 @@ ul {
 
 /*Registrierung*/
 
-
-
 /*Warenkorb*/
 
 .warenkorb {
@@ -957,7 +955,6 @@ ul {
  /*
  Mobile Version
  */
-
 @media screen and (max-width: 1300px) {
 
     /*Kategorie*/

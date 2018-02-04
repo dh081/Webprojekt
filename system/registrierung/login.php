@@ -3,8 +3,8 @@ session_start();
 include_once("datenbankverbindung.php");
 
 
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+    $username = htmlspecialchars($_POST['username']);
+    $password = htmlspecialchars($_POST['password']);
     //Den Usernamen in der Datenbank Suchen
     $statement = $db->prepare("SELECT * FROM kunden WHERE username = :username");
     $statement->bindParam(":username", $username, PDO::PARAM_STR);

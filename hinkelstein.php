@@ -24,7 +24,7 @@ echo '
 <br>
 </div>
 <h2>2000 €</h2>
-<button>Jetzt kaufen</button>
+<a href="warenkorb.php?id=1"><button>Jetzt kaufen</button></a>
 <p>Unsere Hinkelsteine stammen aus dem familieneigenen Steinbruch. Sie sind steinhart und werden schnell geliefert!<br>
 Gratis Lieferung!
 <br>

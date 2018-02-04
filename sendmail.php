@@ -27,7 +27,6 @@ $n = date("d");
 $monat = date("m");
 $time = date("H:i");
 
-
 //Beginn der Mail
 $msg = "Gesendet am $tag, den $n.$monat.$jahr - $time Uhr \n\n";
 
@@ -38,8 +37,6 @@ while (list($name,$value) = each($_POST)) {
     }
     $msg .= "$name:\n$value\n\n";
 }
-
-
 
 //Mail Adresse des Anfragers als Absender (Prüfen ob Variable existiert und eine valide Adresse ist)
 if ($sendermail_antwort and isset($_POST[$name_von_emailfeld]) and filter_var($_POST[$name_von_emailfeld], FILTER_VALIDATE_EMAIL)) {

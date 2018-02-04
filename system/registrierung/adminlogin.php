@@ -1,8 +1,8 @@
 <?php
 session_start();
 include_once("../../datenbank.php");
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+    $username = htmlspecialchars($_POST['username']);
+    $password = htmlspecialchars($_POST['password']);
     //Den Usernamen in der Datenbank Suchen
     $statement = $db->prepare("SELECT * FROM admin WHERE username = :username");
     $statement->bindParam(":username", $username, PDO::PARAM_STR);

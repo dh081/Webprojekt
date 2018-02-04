@@ -31,7 +31,7 @@ mit unserem Handwerk. Wir können mit Stolz behaupten, dass die Römer bis heute
 unseres Erfolges herausgefunden haben. Dadurch besitzen wir in ganz Gallien ein Monopol. 
 Wir freuen uns über Ihre <a href="kontakt.php">Anfrage</a> und hoffen, dass wir Ihre Wünsche entsprechend umsetzten können.
 </div>
-<div class="about_img">
+<div style="width: 40%";>
 <img src="https://mars.iuk.hdm-stuttgart.de/~mb280/bilder/ueberuns.jpg">
 </div>
 </div>
