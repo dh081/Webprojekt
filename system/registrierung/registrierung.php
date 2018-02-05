@@ -2,8 +2,8 @@
 session_start();
 include_once("datenbankverbindung.php");
     $error = false;
-    $username = htmlspecialchars($_POST['username']);
     $lname = htmlspecialchars($_POST['lname']);
+    $username = htmlspecialchars($_POST['username']);
     $email = htmlspecialchars($_POST['email']);
     $password = htmlspecialchars($_POST['password']);
     $password2 = htmlspecialchars($_POST['password2']);
@@ -33,11 +33,11 @@ include_once("datenbankverbindung.php");
     //neuer Nutzer wird in Datenbank gespeichert
     if(!$error) {
         $password_hash = password_hash($password, PASSWORD_DEFAULT); //passwort wird verschlüsselt
-        $statement = $db->prepare("INSERT INTO kunden (kundennummer, username, lname, anschrift, plz, ort, email, password) VALUES (:kundennummer, :username, :lname, :anschrift, :plz, :ort, :email, :password)");
+        $statement = $db->prepare("INSERT INTO kunden (kundennummer, lname, username, anschrift, plz, ort, email, password) VALUES (:kundennummer, :username, :lname, :anschrift, :plz, :ort, :email, :password)");
         $varNull = null;
         $statement->bindParam(":kundennummer", $varNull, PDO::PARAM_NULL);
-        $statement->bindParam(":username", $username, PDO::PARAM_STR);
         $statement->bindParam(":lname", $lname, PDO::PARAM_STR);
+        $statement->bindParam(":username", $username, PDO::PARAM_STR);
         $statement->bindParam(":anschrift", $anschrift, PDO::PARAM_STR);
         $statement->bindParam(":plz", $plz, PDO::PARAM_INT);
         $statement->bindParam(":ort", $ort, PDO::PARAM_STR);
@@ -47,7 +47,7 @@ include_once("datenbankverbindung.php");
         /*$result = $statement->execute(array(':username' => $username, ':password' => $password_hash, ':email' => $email, ':lname' => $lname, ':ort' => $ort, ':plz' => $plz, ':anschrift' => $anschrift));*/
         $db = null;
         if($statement) {
-            echo 'Registrierung erfolgreich! Anmeldung bestätigen und los! <a href="../../index.php">zurück</a>';
+            echo 'Registrierung erfolgreich! <a href="../../index.php">zurück</a>';
             /*$sqlabfrage = "SELECT kundennummer FROM kunden ORDER BY kundennummer DESC LIMIT 1";
             foreach ($db->query($sqlabfrage) as $row) {
                 $kundennummer = $row["kundennummer"];
